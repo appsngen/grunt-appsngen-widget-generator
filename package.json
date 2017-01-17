@@ -1,0 +1,23 @@
+{
+  "name": "grunt-appsngen-widget-generator",
+  "version": "0.0.1",
+  "description": "Grunt task for generating Appsngen widget from Polymer component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appsngen/grunt-appsngen-widget-generator.git"
+  },
+  "keywords": [
+    "Polymer",
+    "Appsngen"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appsngen/grunt-appsngen-widget-generator/issues"
+  },
+  "homepage": "https://github.com/appsngen/grunt-appsngen-widget-generator#readme"
+}
