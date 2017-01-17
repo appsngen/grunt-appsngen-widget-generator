@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs id="sample-widget" title="Sample Widget"
+                 thumbnail="images/favicon.ico" description="Sample widget description.">
+    </ModulePrefs>
+    <Metadata>
+        <SupportedDimensions>LARGE | MEDIUM | SMALL</SupportedDimensions>
+        <Version>0.1.0</Version>
+    </Metadata>
+
+    <Content type="html" href="index.html"/>
+</Module>

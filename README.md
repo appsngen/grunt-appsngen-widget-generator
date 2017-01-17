@@ -22,6 +22,8 @@ grunt.loadNpmTasks('grunt-appsngen-widget-generator');
 ### Overview
 In your project's Gruntfile, add a section named `appsngen-widget-generator` to the data object passed into `grunt.initConfig()`.
 
+> For correct work of task tag name should be the same as `name` property in `bower.json`
+
 ```js
 grunt.initConfig({
     "appsngen-widget-generator": {
@@ -58,35 +60,17 @@ Default value: will be received from `description` property in `bower.json`, any
 
 Appsngen widget description.
 
-#### options.datasources
-Type: `Array`
-Default value: will be received from `datasources` property in `bower.json`, any passed value will have higher priority
-
-List of used datasources in widget.
-
-#### options.categories
-Type: `Array`
-Default value: will be received from `categories` property in  `bower.json`, any passed value will have higher priority
-
-List of categories to which widget belongs.
-
-#### options.tags
-Type: `Array`
-Default value: will be received from `tags` property in `bower.json`, any passed value will have higher priority
-
-List of tags for search.
-
 #### options.supportedDimensions
 Type: `Array`
 Default value: will be received from `supportedDimensions` property in `bower.json`, any passed value will have higher priority
 
 List of supported dimensions (`SMALL`, `MEDIUM`, `LARGE`).
 
-#### options.supportedBrowsers
+#### options.datasources
 Type: `Array`
-Default value: will be received from `supportedBrowsers` property in `bower.json`, any passed value will have higher priority
+Default value: will be received from `datasources` property in `bower.json`, any passed value will have higher priority
 
-List of supported browsers.
+List of used datasources in widget.
 
 #### options.icon
 Type: `Path`
