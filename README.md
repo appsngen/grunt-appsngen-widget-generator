@@ -71,9 +71,3 @@ Type: `Array`
 Default value: will be received from `datasources` property in `bower.json`, any passed value will have higher priority
 
 List of used datasources in widget.
-
-#### options.icon
-Type: `Path`
-Default value: `images/favicon.ico`, any passed value will have higher priority
-
-Icon for widget.
