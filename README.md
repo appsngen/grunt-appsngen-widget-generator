@@ -36,38 +36,49 @@ grunt.initConfig({
 
 ### Options
 
+#### options.dest
+Type: `String`
+Default: `dist`
+
+Define where to output generated Appsngen widget.
+
 #### options.id
 Type: `String`
-Default value: will be received from `name` property in `bower.json`, any passed value will have higher priority
+Default: will be received from `name` property in `bower.json`, any passed value will have higher priority
 
 Appsngen widget ID.
 
 #### options.title
 Type: `String`
-Default value: will be received from `name` property in `bower.json` by replacing all `-` with whitespaces and capitalizing all words, any passed value will have higher priority
+Default: will be received from `title` property in `bower.json`, any passed value will have higher priority
 
 Appsngen widget title.
 
 #### options.version
 Type: `String`
-Default value: will be received from `version` property in `bower.json`, any passed value will have higher priority
+Default: will be received from `version` property in `bower.json`, any passed value will have higher priority
 
 Appsngen widget version.
 
 #### options.description
 Type: `String`
-Default value: will be received from `description` property in `bower.json`, any passed value will have higher priority
+Default: will be received from `description` property in `bower.json`, any passed value will have higher priority
 
 Appsngen widget description.
 
 #### options.supportedDimensions
 Type: `Array`
-Default value: will be received from `supportedDimensions` property in `bower.json`, any passed value will have higher priority
+Default: will be received from `supportedDimensions` property in `bower.json`, any passed value will have higher priority
 
 List of supported dimensions (`SMALL`, `MEDIUM`, `LARGE`).
 
 #### options.datasources
 Type: `Array`
-Default value: will be received from `datasources` property in `bower.json`, any passed value will have higher priority
+Default: will be received from `datasources` property in `bower.json`, any passed value will have higher priority
 
 List of used datasources in widget.
+
+### TODO plan
+
+* Add generation by custom template.
+* Call `vulcanize` inside

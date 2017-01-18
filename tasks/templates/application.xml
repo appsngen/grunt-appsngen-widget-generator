@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-    <ModulePrefs id="sample-widget" title="Sample Widget"
-                 description="Sample widget description.">
+    <ModulePrefs id="{{id}}" title="{{title}}"
+                 description="{{description}}">
     </ModulePrefs>
     <Metadata>
-        <SupportedDimensions>LARGE | MEDIUM | SMALL</SupportedDimensions>
-        <Version>0.1.0</Version>
+        {{supportedDimensions}}
+        <DataSources>{{datasources}}</DataSources>
+        <Version>{{version}}</Version>
     </Metadata>
 
     <Content type="html" href="index.html"/>
